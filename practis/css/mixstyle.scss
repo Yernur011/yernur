@@ -1,0 +1,195 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-track {
+	background-color: #fff;
+	border-radius:20px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #33a801;
+	border-radius:20px;
+	border: 3px solid #f2f4f5;
+}
+/*--------*/
+body{
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head_manue{
+    .head_manue_position{
+        display: flex;
+        justify-content: start;
+        background-color: #000;
+        padding: 5px 0 0px 0;
+        height: 60px;
+        
+        .head_manue_link{
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+
+            color: #fff;
+        }
+        .head_img_size{
+            width: 20px;
+            margin-left: 30px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    }
+    .under_manue{
+        margin: 40px 60px 0 60px;
+        .head_img_size_2{
+            width: 150px;
+            hight:60px;
+        }
+        .head_massagers{
+            display: inline-block;
+            margin-left: 30px;
+        }
+        .head_massagers>ul{
+            display: inline-block;
+        }
+            .under_massagers_txt{
+                display: inline-block;
+                margin-left: 220px;
+            }
+            .under_massagers_txt h3{
+                font-size: 18px;
+            }
+            .under_massagers_img{
+                    width: 50px;
+                    hight: 80px;
+                    margin: -15px 0 0 10px;
+                }
+    }
+}
+/*150 60*/
+.grey_line{
+    height: 20px;
+    background-color: #f2f4f5;
+    border-radius: 10px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.main_block{
+    padding: 50px;
+    .main_block_img{
+        display: flex;
+        .main_block_img_1{
+            display: inline-block;
+            width: 476px;
+            .main_block_img_1_1{
+                width: 476px;
+                height: 290px;
+            }
+            .main_block_img_1_txt{
+                padding-top: 10px;
+            }
+        }
+        .main_block_img_2{
+            display: inline-block;
+            margin: 0 0 0 50px;
+            padding: 20px 0 20px 0;
+            border: 2px;
+            .main_block_img_1_2{
+                width: 250px; 
+            }
+        }
+    }
+}
+/*476 290*/
+.four_img{
+    padding: 0 30px 0 30px;
+    .four_img_ul{
+        display: flex;
+        margin-bottom: 100px;
+        .four_img_img{
+            display: inline-block;
+            width: 230px;
+        }
+        .under_four_img_txt{
+            width: 230px;
+            display: inline-block;
+            padding-top: 40px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
+.button_position{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    .button_txt{
+        display: inline-block;
+        width: 300px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #ffc500;
+        font-size: 15px;
+        box-shadow: 0 0 5px 1px #ffc500;
+    }
+}
+
+.over_footer{
+    background-color: #ffc500;
+    
+    
+}
+.over_footer img{
+    width: 1130px;
+
+}
+.footer{
+    background-color: #000;
+    padding-top: 30px;
+    .footer_ul{
+        display: flex;
+        justify-content: space-between;
+        
+        .footer_tengti{
+            width: 200px;
+            height: 80px;
+        }
+        .footer_mark{
+            margin-left: 10px;
+        }
+        .eror{
+            width: 320px;
+        }
+        .footer_inform{
+            display: flex;
+            justify-content: end;
+            color:#fff;
+            .footer_inform li{
+                margin-left: 30px;
+            }
+        }
+    }
+    
+}
+.last_img{
+    width: 1100px;
+}

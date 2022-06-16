@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 20px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #32a801;
+  border-radius: 20px;
+  border: 3px solid #f2f4f5; }
+
+/*--------------------*/
+.all-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  background-color: #f2f4f5; }
+
+.head-menue-position {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3; }
+  .head-menue-position .ul-padding {
+    padding-left: 10px; }
+  .head-menue-position .head-menue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    background-color: #757575;
+    height: 86px;
+    padding-top: 32px; }
+    .head-menue-position .head-menue .head-menue-1 {
+      margin-right: 10px;
+      margin-left: 5px;
+      color: white;
+      font-size: 15px; }
+
+.manue a {
+  text-decoration: none; }
+
+.manue li {
+  position: relative;
+  list-style: none; }
+
+.manue_list > li {
+  margin-right: 10px; }
+
+.manue_list > li:hover .sub-menue_list {
+  display: block; }
+
+.menue_list {
+  color: white; }
+
+.sub-menue_list {
+  display: none;
+  position: absolute;
+  top: 30px;
+  padding: 20px 0 0 0;
+  min-width: 215px; }
+
+.sub-menue_list > li {
+  background-color: #757575;
+  padding: 5px; }
+
+.sub-menue_link {
+  color: #fff; }
+
+.menue_link {
+  color: #fff; }
+
+.menue_link:hover {
+  color: #32a801; }
+
+.sub-menue_link:hover {
+  color: #32a801; }
+
+.head-manue-2 {
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px; }
+
+.head-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  padding-top: 25px; }
+
+.num {
+  height: 78px;
+  width: 255px;
+  background-color: #32a801;
+  color: white;
+  font-weight: bold;
+  padding: 26px 20px;
+  display: inline-block;
+  float: right; }
+
+.head-menue-hight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 78px;
+  margin-top: -14px;
+  background-color: white; }
+  .head-menue-hight .head-img-position {
+    display: inline-block;
+    margin-top: 25px; }
+  .head-menue-hight .head-manue-2-0 {
+    height: 40px; }
+
+/*----*/
+.four_img .four_img_ul > li {
+  width: 288.75px; }
+
+.four_img .four_img_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .four_img .four_img_ul .four_img_img {
+    display: inline-block;
+    width: 288.75px; }
+  .four_img .four_img_ul .under_four_img_txt {
+    width: 288px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px; }
+
+/*288.75 160*/
+.footer-manue {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start; }
+  .footer-manue .footer-li {
+    margin-right: 10px; }
+
+.footer-manue2 {
+  padding-left: 50px; }
+  .footer-manue2 .massagers-icon {
+    width: 200px;
+    margin-top: 10px; }
+
+footer {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.1+0,0+13 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(13%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00000000',GradientType=0 );
+  /* IE6-9 */
+  border-radius: 5px 5px 0 0; }
+
+footer div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  padding-top: 50px; }
+
+.footer-line-margin {
+  margin-top: -30px; }
+
+.footer-cities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer-li1 {
+  margin-top: -10px;
+  margin-bottom: 20px; }

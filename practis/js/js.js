@@ -1,0 +1,1 @@
+let isBoss = confirm('Вы хотите получать уведомлени от Tengri News?');
